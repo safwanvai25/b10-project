@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+*{
+  
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+/* header */
+header{
+
+ padding-top: 57px;
+    background: rgb(17, 17, 17);
+ 
+}
+/* nav strat */
+nav{
+    
+   
+  
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 1060px;
+   margin: 0 auto;
+
+
+   
+  
+
+
+}
+
+
+
+.fitness > h3{
+
+ font-size: 36px;
+color: #E6533C;
+font-weight: 800;
+font-style: italic;
+font-family: "Inter", sans-serif;
+
+}
+.anchor-box{
+    display: flex;
+ 
+  
+    border: 1px solid;
+   border-radius: 39px; 
+ width: 465px;
+ padding: 2px;
+ border: 1px solid rgba(255, 255, 255, 0.1);
+
+
+
+
+}
+
+
+
+
+.anchor-box li{
+
+  list-style: none;
+  padding:8px 20px  ;
+  margin-right: 12px;
+
+
+
+
+}
+.anchor-box li a{
+
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 400;
+ font-family: "Inter", sans-serif;
+ color: white;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+#option-1-li{
+
+    padding-left: 0;
+}
+
+#option-1{
+
+    border-radius: 39px; 
+    padding:8px 20px  ;
+
+    background-color: #E6533C;
+   
+
+
+
+
+
+}
+
+
+/* nav end */
+/* style on banner */
+
+.banner{
+    margin: 0 auto;
+    max-width: 1060px;
+    display: flex;
+    align-items:center;
+  justify-content: space-between;
+    margin-top: 40px;
+}
+.content{
+
+   width: 47.3%;
+
+}
+
+
+
+.content > h1{
+
+    font-size: 78px;
+    font-family:"Inter", sans-serif ;
+    font-weight: 900;
+    color: white;
+    
+  
+
+
+
+
+
+
+}
+.paragraph{
+
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   letter-spacing: 0.5;
+   line-height: 24px;
+   color: rgba(255,255, 255,0.5);
+   margin-bottom: 28px;
+   margin-top: 14px;
+
+
+
+
+
+
+
+}
+
+.btn{
+
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: white;
+
+
+
+
+
+
+
+}
+.btn-1{
+ 
+
+    background-color: #E6533C;
+    border: none;
+   
+
+
+
+
+}
+
+.btn-2{
+ 
+
+
+    background-color:rgb(17, 17, 17);
+    color:white;
+     border: none;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+    
+
+
+
+
+}
+.style-1{
+
+
+
+    font-family:"Bebas Neue", sans-serif ;
+    font-weight: 10.5;
+    font-style: italic;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.item-1{
+
+height: 50px;
+width: 50px;
+background-color: #E6533C;
+border-radius: 50%;
+
+
+
+
+}
+.content-box{
+    
+    width: 200px;
+    height: 100px;
+    padding: 20px 10px;
+
+   border-radius: 12px;
+   
+   border: 1px solid rgba(255, 255, 255, 0.1);
+ 
+   backdrop-filter: blur(20px);
+   background: rgba(255, 255, 255, 0.1);
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   position: absolute;
+
+  left: 240px;
+  top: 125px;
+
+   
+   
+
+
+}
+.content-box-2{
+ box-sizing: border-box;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+ gap: 15px;
+ font-family: "Inter", sans-serif;
+
+  position: absolute;
+  top: 425px;
+  right: 250px;
+   
+   
+ 
+
+    width: 200px;
+    height: 100px;
+    padding: 20px 10px;
+
+   border-radius: 12px;
+   
+   border: 1px solid rgba(255, 255, 255, 0.1);
+ 
+   backdrop-filter: blur(20px);
+   background: rgba(255, 255, 255, 0.1);
+   text-align: center;
+
+
+
+}
+.item-2{
+    color: white;
+    text-align: left;
+  
+  
+  
+
+
+
+
+}
+.text-1{
+
+
+ font-size: 40px;
+ color: white;
+ font-weight: 900;
+ line-height: 40px;
+
+
+
+}
+.text-2{
+
+ font-size:18px ;
+ color: white;
+ color: rgba(255,255, 255,0.5);
+
+
+
+
+
+
+
+
+}
+.photo-container{
+
+  position: relative;
+
+
+
+}
+
+
+
+/* style end */
+
+
+/* style on others*/
+
+.font-size-30{
+
+    font-size: 30px;
+    
+}
+
+
