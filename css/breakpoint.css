@@ -1,0 +1,60 @@
+
+@media screen and (max-width:576px) {
+
+
+    .banner{
+        margin: 0 auto;
+        max-width: 1060px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+      justify-content: space-between;
+        margin-top: 40px;
+    }
+    .content{
+
+        width: auto;
+        margin: 50px 30px;
+     
+     }
+
+     nav{
+    
+   
+  
+        display: flex;
+        
+       align-items: center;
+   
+     
+     width: auto;
+       margin: 50px 30px;
+    
+    
+       
+      
+    
+    
+    }
+    .anchor-box{
+      
+        display: none;
+    
+    
+    
+    
+    }
+    .fitness > h3{
+
+        font-size: 60px;
+      
+       
+       }
+       .nav-menu{
+        display: inline;
+        color: white;
+        font-size: 50px;
+    }
+
+    
+}

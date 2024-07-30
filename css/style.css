@@ -59,7 +59,7 @@ font-family: "Inter", sans-serif;
   
     border: 1px solid;
    border-radius: 39px; 
- width: 465px;
+
  padding: 2px;
  border: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -67,6 +67,7 @@ font-family: "Inter", sans-serif;
 
 
 }
+
 
 
 
@@ -101,6 +102,7 @@ font-family: "Inter", sans-serif;
 }
 
 
+
 #option-1-li{
 
     padding-left: 0;
@@ -119,6 +121,7 @@ font-family: "Inter", sans-serif;
 
 
 }
+
 
 
 /* nav end */
@@ -346,8 +349,9 @@ border-radius: 50%;
 
 
 }
-
-
+.nav-menu {
+    display: none;
+}
 
 /* style end */
 
