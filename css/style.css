@@ -780,6 +780,103 @@ color: rgba(255, 255, 255, 0.6);
 
 
 }
+/* section-4  ends*/
+
+/* section-5 start */
+.section-5{
+    width: 60%;
+    margin: 0 auto;
+    padding: 88px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+
+    
+}
+
+.Team-title{
+ 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+
+
+
+}
+.team-container{
+     
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+     background-color: rgba(255, 255, 255, 0.1) ;
+     padding: 20px;
+     border-radius: 18px;
+     
+
+
+
+
+}
+
+.member{
+
+ position: relative;
+ height: 100%;
+
+
+}
+.member-photos{
+    
+    filter: brightness(70%);
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    object-fit:cover
+    
+   
+     
+}
+.Trainer{
+ 
+    color: rgba(255, 255, 255, 0.6) ;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.example{
+
+
+left: 20px;
+ position: absolute;
+bottom: 20px;
+ 
+
+ color:white;
+
+
+
+
+
+
+}
+.body-builder{
+
+ font-size: 18px;
+ font-weight: 900;
+ color: white;
+ font-family: "Inter", sans-serif;
+
+
+
+}
+
+/* section-5 ends */
 /* main ends */
 /* style on others*/
 
